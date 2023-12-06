@@ -10,7 +10,10 @@ Once you're logged into your GitHub account, navigate to the repo by going to ht
 
 ## Clone the GitHub Repo
 
+Prerequisites: In order to clone the repo, you must have GIT installed for your machine. Visit https://git-scm.com/book/en/v2/Getting-Started-Installing-Git for steps to follow based on your OS.
+
 1. In your local projects folder, run the following command: `git clone git@github.com:THE-NEMOURS-FOUNDATION-WEBSOLUTIONS/nemoursorg-cloud.git -c core.symlinks=true`. Make sure to clone this repo with `-c core.symlinks=true` parameter. If you didn't, just delete your local repository and clone again. For Windows user it may be required to run git clone as an administrator.
+
 2. Run `cd nemoursorg-cloud` to navigate into the folder that was created that contains the repo.
 
 ## Installing Dependencies
