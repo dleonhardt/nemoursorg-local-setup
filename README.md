@@ -71,15 +71,14 @@ Pages: `{path-to-author-instance-stage-env}/crx/packmgr/index.jsp#/etc/packages/
 DAM Assets: `{path-to-author-instance-stage-env}/crx/packmgr/index.jsp#/etc/packages/my_packages/go-live-assets-1.0.0.zip`
 
 ### Tags
-Download tags zip from [nemours sharepoint](https://nemoursonline.sharepoint.com/:u:/r/sites/NemoursAEMCloudRe-PlatformPrjTeam/Shared%20Documents/General/AEM%20Cloud/Phase-1/Implementation%20Phase/Dev%20Localhost%20Setup/tags.zip?csf=1&web=1&e=AOWGxD) or [wtt sharepoint](https://wppcloud.sharepoint.com/:u:/r/sites/NemoursLocal/Shared%20Documents/Nemours%20Local/tags.zip?csf=1&web=1&e=zTMLwp)
-Upload tags.zip into your AEM local environment.
+Download tags zip from [nemours sharepoint](https://nemoursonline.sharepoint.com/:u:/r/sites/NemoursAEMCloudRe-PlatformPrjTeam/Shared%20Documents/General/AEM%20Cloud/Phase-1/Implementation%20Phase/Dev%20Localhost%20Setup/tags.zip?csf=1&web=1&e=AOWGxD). Upload tags.zip into your AEM local environment.
 
 Steps:
-* go to `http://localhost:4502/crx/packmgr/index.jsp`
-* click "Upload Package"
-* browse for tags.zip
-* click "Install" on "tags.zip"
-* click More -> Replicate
+* Go to `http://localhost:4502/crx/packmgr/index.jsp`
+* Click "Upload Package"
+* Browse for tags.zip
+* Click "Install" on "tags.zip"
+* Click More -> Replicate
 
 ## How to build
 
