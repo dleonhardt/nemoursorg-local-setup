@@ -48,9 +48,10 @@ Download config files from [Nemours Sharepoint](https://nemoursonline.sharepoint
 ## Local Setup
 
 1. Download latest AEM SDK from [AEM download page](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)
-    * Move the AEM SDK to under the `/env` directory
+    * Move the AEM SDK to the `/env` directory
 2. Obtain a dev license (`license.properties` file)
     * You can access this in the [Nemours AEM Cloud Re-Platform Project Teams channel](https://nemoursonline.sharepoint.com/:f:/r/sites/NemoursAEMCloudRe-PlatformPrjTeam/Shared%20Documents/General/AEM%20Cloud/Phase-1/Implementation%20Phase/Dev%20Localhost%20Setup?csf=1&web=1&e=1icsYD) under Documents > General > AEM Cloud > Phase-1 > Implementation Phase > Dev Localhost Setup
+    * Move the dev license to the `/env` directory
 3. Make sure Docker is running
 4. Run command `sh gradlew props` and specify AEM instance source files
     * The setup process below would prompt for location of the installation source files - SDK and license.properties file paths. Full path for eg. like below should be entered.
