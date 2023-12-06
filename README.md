@@ -102,20 +102,43 @@ mvn clean install -PautoInstallSinglePackage -Daem.port=4503
 
 ### Build and run frontend using the local environment
 
-1. Go to  `/ui.theme`, initialize the project with following command executed at the theme root:
+1. Go to  `/ui.theme` and initialize the project with the following command executed at the theme root:
 
 ```
 npm install
 ```
 
-2. Build the project (production mode) with following command executed at the theme root.
+2. Build the project (production mode) with the following command executed at the theme root.
 
 ```
 npm run build
 ```
 
-3. Run the frontend local proxy server with following command executed at the theme root:
+3. Run the frontend local proxy server with the following command executed at the theme root:
 
 ```
 npm run live
+```
+
+If this is being run at the same time as proxying the local environment via `npm run proxy`, it will conflict as port `7002` would already in use and may start on the next available port instead. Please stop the local proxy before executing the blow step.
+
+For localhost use (Author only):
+```
+npm run live
+```
+Opens proxy author server on localhost:7002 with browser sync - content edit does not work. For editing use localhost:4502.
+
+For Stage with theme 1 use (Dispatcher only):
+```
+npm run live:stage1
+```
+
+For Stage with theme 2 use (Dispatcher only):
+```
+npm run live:stage2
+```
+
+For Production use (Dispatcher only):
+```
+npm run live:prod
 ```
