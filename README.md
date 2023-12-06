@@ -116,12 +116,6 @@ npm run build
 
 3. Run the frontend local proxy server with the following command executed at the theme root:
 
-```
-npm run live
-```
-
-If this is being run at the same time as proxying the local environment via `npm run proxy`, it will conflict as port `7002` would already in use and may start on the next available port instead. Please stop the local proxy before executing the blow step.
-
 For localhost use (Author only):
 ```
 npm run live
