@@ -47,15 +47,15 @@ Download config files from [Nemours Sharepoint](https://nemoursonline.sharepoint
 
 ## Local Setup
 
-* Download latest AEM SDK from [AEM download page](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)
+1. Download latest AEM SDK from [AEM download page](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)
     * Move the AEM SDK to under the `env` directory
-* Obtain a dev license (`license.properties` file)
+2. Obtain a dev license (`license.properties` file)
     * You can access this in the [Nemours AEM Cloud Re-Platform Project Teams channel](https://nemoursonline.sharepoint.com/:f:/r/sites/NemoursAEMCloudRe-PlatformPrjTeam/Shared%20Documents/General/AEM%20Cloud/Phase-1/Implementation%20Phase/Dev%20Localhost%20Setup?csf=1&web=1&e=1icsYD) under Documents > General > AEM Cloud > Phase-1 > Implementation Phase > Dev Localhost Setup
-* Make sure Docker is running
-* The setup process below would prompt for location of the installation source files - SDK and license.properties file paths. Full path for eg. like below should be entered.
+3. Make sure Docker is running
+4. The setup process below would prompt for location of the installation source files - SDK and license.properties file paths. Full path for eg. like below should be entered.
     * `{full-directory-path}/aem-sdk-quickstart-xyz.jar`
     * `{full-directory-path}/license.properties`
-* Use gradle to setup your instance
+5. Use gradle to setup your instance
     * Run command `sh gradlew props` and specify AEM instance source files,
     * Run command `sh gradlew :env:setup` to set up complete AEM environment with building & deploying AEM application incrementally
 
