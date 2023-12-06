@@ -1,5 +1,7 @@
 # Nemours.org AEM Cloud Local Install
 
+For the full readme, visit https://github.com/THE-NEMOURS-FOUNDATION-WEBSOLUTIONS/nemoursorg-cloud.
+
 ## GitHub
 
 In order to view the `README.md` that contains the local setup instructions as well as necessary dependencies, you will need GitHub access. If you do not have a GitHub account, you will need to [create one](https://github.com/signup). Also, it may be required to add [two-factor autentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) added to your account.
