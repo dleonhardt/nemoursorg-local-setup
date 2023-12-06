@@ -18,7 +18,7 @@ Prerequisites: In order to clone the repo, you must have GIT installed for your 
 
 ## Installing Dependencies
 
-You will now install the necesarry dependencies in order to run the local setup. For more information on this, see the [README.md](https://github.com/THE-NEMOURS-FOUNDATION-WEBSOLUTIONS/nemoursorg-cloud#prerequisites) in the root directory of the repo. If you are a Mac user, you may want to also install [Homebrew]() as this makes installing some software below easier.
+You will now install the necesarry dependencies in order to run the local setup. For more information on this, see the [README.md](https://github.com/THE-NEMOURS-FOUNDATION-WEBSOLUTIONS/nemoursorg-cloud#prerequisites) in the root directory of the repo. If you are a Mac user, you may want to also install [Homebrew](https://brew.sh/) as this makes installing some software below easier.
 
 * Install Docker - [Download](https://www.docker.com/products/docker-desktop/)
 * Install NodeJS - [Download](https://nodejs.org/en/download/)
